@@ -1,0 +1,26 @@
+source:
+  url: https://github.com/fran-retfie/GF26b-qsdss
+  original_url: null
+  kind: fork
+  why: GitHub fork of the upstream repository
+  licence: null
+  upstream_default_branch: main
+tapeouts:
+- org: tinytapeout
+  run: ttgf26b
+  slot: tt_um_franretfie_top
+  project: Quadrature sine generator
+  size: 1x1
+  kind: digital (Verilog)
+  commit: ece99dc6ad0ff961b013388b0198c5e967e6eaec
+  commit_source: commit from the shuttle repo's projects/<name>/commit_id.json
+  tag: tinytapeout/ttgf26b/tt_um_franretfie_top
+  branch: tapeout/tinytapeout/ttgf26b/tt_um_franretfie_top
+  page: https://app.tinytapeout.com/shuttles/ttgf26b
+generated: '2026-10-17T23:40:13Z'
+tooling: https://github.com/wafer-space/wafer.space-bench
+index: https://wafer-space-bench.github.io
+branches:
+- about
+- tapeout/tinytapeout/ttgf26b/tt_um_franretfie_top
+- upstream/main
